@@ -8,8 +8,8 @@ import com.jhw.module.admin.seguridad.consume.module.SeguridadConsumeCoreModule;
 import com.jhw.module.admin.seguridad.service.ResourceServiceClientImplementation;
 import com.jhw.module.admin.seguridad.service.ResourceServiceImplementation;
 import com.jhw.module.admin.seguridad.consume.usecase_def.*;
+import com.jhw.module.admin.seguridad.ui.UsuariosMainPanel;
 import com.jhw.module.admin.seguridad.ui.rol.RolDetailView;
-import com.jhw.module.admin.seguridad.ui.usuario.UsuarioDetailView;
 import com.jhw.swing.material.components.taskpane.CollapseMenu;
 import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
@@ -49,15 +49,15 @@ public class SeguridadSwingModule extends DefaultAbstractSwingMainModule {
         CollapseMenu menu = new CollapseMenu(SeguridadModuleNavigator.ICON_SEGURIDAD, SeguridadModuleNavigator.SEGURIDAD);
         dash.addKeyValue(DashboardConstants.MAIN_ELEMENT, menu);
 
-        dash.addView(SeguridadModuleNavigator.NAV_ROL, new RolDetailView());
+        /*dash.addView(SeguridadModuleNavigator.NAV_ROL, new RolDetailView());
         menu.addMenuItem(new AbstractAction(SeguridadModuleNavigator.ROL, SeguridadModuleNavigator.ICON_ROL) {
             @Override
             public void actionPerformed(ActionEvent e) {
                 app.navigateTo(SeguridadModuleNavigator.NAV_ROL);
             }
-        });
+        });*/
 
-        dash.addView(SeguridadModuleNavigator.NAV_USUARIO, new UsuarioDetailView());
+        dash.addView(SeguridadModuleNavigator.NAV_USUARIO, new UsuariosMainPanel());
         menu.addMenuItem(new AbstractAction(SeguridadModuleNavigator.USUARIO, SeguridadModuleNavigator.ICON_USUARIO) {
             @Override
             public void actionPerformed(ActionEvent e) {
