@@ -15,10 +15,14 @@ import com.jhw.swing.models.input.dialogs.DialogModelInput;
 public class UsuarioDetailView extends _MaterialPanelDetail<UsuarioDomain> {
 
     private static final String COL_NOMBRE = "Nombre";
+    private static final String COL_EMAIL = "E-Mail";
+    private static final String COL_ROL = "Rol";
 
     public UsuarioDetailView() {
         super(
-                Column.builder().name(COL_NOMBRE).build()
+                Column.builder().name(COL_NOMBRE).build(),
+                Column.builder().name(COL_EMAIL).build(),
+                Column.builder().name(COL_ROL).build()
         );
 
         this.personalize();
@@ -45,7 +49,9 @@ public class UsuarioDetailView extends _MaterialPanelDetail<UsuarioDomain> {
     @Override
     public Object[] getRowObject(UsuarioDomain obj) {
         return new Object[]{
-            obj.getUsername()
+            obj.getUsername(),
+            obj.getEmail(),
+            obj.getRolFk()
         };
     }
 
