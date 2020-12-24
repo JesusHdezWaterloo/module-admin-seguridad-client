@@ -50,7 +50,7 @@ public class UsuarioInputView extends CleanCRUDInputView<UsuarioDomain> {
         passwordField = MaterialPasswordFieldFactory.buildIcon();
         passwordField.setHint("Contraseña");
         passwordField.setLabel("Contraseña");
-        passwordField.setIcon(MaterialIcons.SECURITY);
+        passwordField.setIcon(MaterialIcons.VPN_KEY);
 
         passwordFieldCheck = MaterialPasswordFieldFactory.buildIcon();
         passwordFieldCheck.setHint("Confirmación de contraseña");

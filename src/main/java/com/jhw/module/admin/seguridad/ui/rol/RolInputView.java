@@ -43,6 +43,7 @@ public class RolInputView extends CleanCRUDInputView<RolDomain> {
         textFieldNivelAcceso = MaterialPreparedTextFactory.buildIntegerIcon();
         textFieldNivelAcceso.setHint("Nivel de acceso del rol");
         textFieldNivelAcceso.setLabel("Nivel de acceso");
+        textFieldNivelAcceso.setIcon(MaterialIcons.VPN_LOCK);
 
         textAreaDescripcion = MaterialPreparedTextAreaFactory.buildDescripcion();
 
