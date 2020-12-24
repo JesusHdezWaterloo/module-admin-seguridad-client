@@ -39,7 +39,7 @@ public class UsuarioInputView extends CleanCRUDInputView<UsuarioDomain> {
 
         textFieldNombre = MaterialTextFactory.buildIcon();
         textFieldNombre.setHint("Nombre de usuario");
-        textFieldNombre.setLabel("Rol");
+        textFieldNombre.setLabel("Usuario");
         textFieldNombre.setIcon(MaterialIcons.PRIORITY_HIGH);
 
         textFieldEmail = MaterialTextFactory.buildIcon();
@@ -51,15 +51,14 @@ public class UsuarioInputView extends CleanCRUDInputView<UsuarioDomain> {
         passwordField.setHint("Contraseña");
         passwordField.setLabel("Contraseña");
         passwordField.setIcon(MaterialIcons.SECURITY);
-        
 
         passwordFieldCheck = MaterialPasswordFieldFactory.buildIcon();
         passwordFieldCheck.setHint("Confirmación de contraseña");
         passwordFieldCheck.setLabel("Confirmación");
         passwordFieldCheck.setIcon(MaterialIcons.SECURITY);
-        
+
         rolICBS = new RolICBS();
-        
+
         textAreaDescripcion = MaterialPreparedTextAreaFactory.buildDescripcion();
 
         VerticalLayoutContainer.builder vlc = VerticalLayoutContainer.builder();
@@ -81,6 +80,12 @@ public class UsuarioInputView extends CleanCRUDInputView<UsuarioDomain> {
     private RolICBS rolICBS;
     private MaterialTextArea textAreaDescripcion;
     // End of variables declaration
+
+    @Override
+    public void update() {
+        super.update();
+        passwordField.setObject("");
+    }
 
     @Override
     public Map<String, Object> bindFields() {
