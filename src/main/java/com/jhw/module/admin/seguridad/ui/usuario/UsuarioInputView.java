@@ -55,7 +55,7 @@ public class UsuarioInputView extends CleanCRUDInputView<UsuarioDomain> {
         passwordFieldCheck = MaterialPasswordFieldFactory.buildIcon();
         passwordFieldCheck.setHint("Confirmación de contraseña");
         passwordFieldCheck.setLabel("Confirmación");
-        passwordFieldCheck.setIcon(MaterialIcons.SECURITY);
+        passwordFieldCheck.setIcon(MaterialIcons.VPN_KEY);
 
         rolICBS = new RolICBS();
 
