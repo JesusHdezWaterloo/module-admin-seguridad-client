@@ -2,6 +2,7 @@ package com.jhw.module.admin.seguridad.ui.usuario;
 
 import com.jhw.module.admin.seguridad.core.domain.*;
 import com.jhw.module.admin.seguridad.ui.module.SeguridadSwingModule;
+import com.jhw.module.admin.seguridad.ui.rol.RolICBS;
 import com.jhw.swing.material.components.container.layout.VerticalLayoutContainer;
 import com.jhw.swing.material.components.passwordfield.MaterialPasswordFieldFactory;
 import com.jhw.swing.material.components.passwordfield.MaterialPasswordFieldIcon;
@@ -57,7 +58,7 @@ public class UsuarioInputView extends CleanCRUDInputView<UsuarioDomain> {
         passwordFieldCheck.setLabel("Confirmación");
         passwordFieldCheck.setIcon(MaterialIcons.SECURITY);
         
-        rolICBS = new UsuarioICBS();
+        rolICBS = new RolICBS();
         
         textAreaDescripcion = MaterialPreparedTextAreaFactory.buildDescripcion();
 
@@ -77,7 +78,7 @@ public class UsuarioInputView extends CleanCRUDInputView<UsuarioDomain> {
     private MaterialTextFieldIcon textFieldEmail;
     private MaterialPasswordFieldIcon passwordField;
     private MaterialPasswordFieldIcon passwordFieldCheck;
-    private UsuarioICBS rolICBS;
+    private RolICBS rolICBS;
     private MaterialTextArea textAreaDescripcion;
     // End of variables declaration
 

@@ -30,5 +30,7 @@ public class UsuarioICBS extends InputComboBoxSelection<UsuarioDomain> {
 
     @Override
     protected void addPropertyChange() {
+        SeguridadSwingModule.rolUC.addPropertyChangeListener(this);
+        SeguridadSwingModule.usuarioUC.addPropertyChangeListener(this);
     }
 }

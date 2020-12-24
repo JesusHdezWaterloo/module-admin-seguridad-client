@@ -30,5 +30,6 @@ public class RolICBS extends InputComboBoxSelection<RolDomain> {
 
     @Override
     protected void addPropertyChange() {
+        SeguridadSwingModule.rolUC.addPropertyChangeListener(this);
     }
 }
