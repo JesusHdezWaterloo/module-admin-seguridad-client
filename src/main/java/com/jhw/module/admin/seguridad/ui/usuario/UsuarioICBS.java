@@ -1,4 +1,4 @@
-package com.jhw.module.admin.seguridad.ui.rol;
+package com.jhw.module.admin.seguridad.ui.usuario;
 
 import com.jhw.module.admin.seguridad.core.domain.*;
 import com.jhw.module.admin.seguridad.ui.module.SeguridadModuleNavigator;
@@ -11,21 +11,21 @@ import java.util.List;
  *
  * @author Jesús Hernández Barrios (jhernandezb96@gmail.com)
  */
-public class RolICBS extends InputComboBoxSelection<RolDomain> {
+public class UsuarioICBS extends InputComboBoxSelection<UsuarioDomain> {
 
-    public RolICBS() {
-        setLabel("Rol");
+    public UsuarioICBS() {
+        setLabel("Usuario");
         setIcon(SeguridadModuleNavigator.ICON_ROL);
     }
 
     @Override
-    public List<RolDomain> getList() throws Exception {
-        return SeguridadSwingModule.rolUC.findAll();
+    public List<UsuarioDomain> getList() throws Exception {
+        return SeguridadSwingModule.usuarioUC.findAll();
     }
 
     @Override
-    public ModelPanel<RolDomain> inputPanel() {
-        return RolInputView.from();
+    public ModelPanel<UsuarioDomain> inputPanel() {
+        return UsuarioInputView.from();
     }
 
     @Override

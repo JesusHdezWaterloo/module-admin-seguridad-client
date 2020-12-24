@@ -18,7 +18,7 @@ public class SeguridadModuleNavigator implements NavigationService {
 
     public static final DerivableIcon ICON_SEGURIDAD = MaterialIcons.SECURITY;
     public static final DerivableIcon ICON_ROL = MaterialIcons._3D_ROTATION;
-    public static final DerivableIcon ICON_USUARIO = MaterialIcons.PERSON;
+    public static final DerivableIcon ICON_USUARIO = MaterialIcons.PEOPLE;
 
     public static final String NAV_ROL = GROUP + ".rol";
     public static final String NAV_USUARIO = GROUP + ".usuario";

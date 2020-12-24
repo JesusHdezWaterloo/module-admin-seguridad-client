@@ -9,6 +9,7 @@ import com.jhw.module.admin.seguridad.service.ResourceServiceClientImplementatio
 import com.jhw.module.admin.seguridad.service.ResourceServiceImplementation;
 import com.jhw.module.admin.seguridad.consume.usecase_def.*;
 import com.jhw.module.admin.seguridad.ui.rol.RolDetailView;
+import com.jhw.module.admin.seguridad.ui.usuario.UsuarioDetailView;
 import com.jhw.swing.material.components.taskpane.CollapseMenu;
 import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
@@ -56,6 +57,13 @@ public class SeguridadSwingModule extends DefaultAbstractSwingMainModule {
             }
         });
 
+        dash.addView(SeguridadModuleNavigator.NAV_USUARIO, new UsuarioDetailView());
+        menu.addMenuItem(new AbstractAction(SeguridadModuleNavigator.USUARIO, SeguridadModuleNavigator.ICON_USUARIO) {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                app.navigateTo(SeguridadModuleNavigator.NAV_USUARIO);
+            }
+        });
     }
 
     @Override
