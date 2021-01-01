@@ -2,7 +2,7 @@ package com.jhw.module.admin.seguridad.ui;
 
 import com.jhw.module.admin.seguridad.ui.rol.RolDetailView;
 import com.jhw.module.admin.seguridad.ui.usuario.UsuarioDetailView;
-import com.jhw.utils.interfaces.Update;
+import com.root101.utils.interfaces.Update;
 import com.jhw.swing.material.components.container.panel._PanelTransparent;
 import java.awt.BorderLayout;
 

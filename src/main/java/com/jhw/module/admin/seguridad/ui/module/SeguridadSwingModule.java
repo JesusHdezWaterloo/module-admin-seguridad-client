@@ -1,9 +1,9 @@
 package com.jhw.module.admin.seguridad.ui.module;
 
-import com.clean.swing.app.AbstractSwingApplication;
-import com.clean.swing.app.DefaultAbstractSwingMainModule;
-import com.clean.swing.app.dashboard.DashBoardSimple;
-import com.clean.swing.app.dashboard.DashboardConstants;
+import com.root101.clean.swing.app.AbstractSwingApplication;
+import com.root101.clean.swing.app.DefaultAbstractSwingMainModule;
+import com.root101.clean.swing.app.dashboard.DashBoardSimple;
+import com.root101.clean.swing.app.dashboard.DashboardConstants;
 import com.jhw.module.admin.seguridad.consume.module.SeguridadConsumeCoreModule;
 import com.jhw.module.admin.seguridad.service.ResourceServiceClientImplementation;
 import com.jhw.module.admin.seguridad.service.ResourceServiceImplementation;

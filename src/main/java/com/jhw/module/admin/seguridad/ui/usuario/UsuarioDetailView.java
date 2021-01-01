@@ -1,6 +1,6 @@
 package com.jhw.module.admin.seguridad.ui.usuario;
 
-import com.clean.core.app.services.ExceptionHandler;
+import com.root101.clean.core.app.services.ExceptionHandler;
 import com.jhw.module.admin.seguridad.core.domain.*;
 import com.jhw.module.admin.seguridad.ui.module.SeguridadModuleNavigator;
 import com.jhw.module.admin.seguridad.ui.module.SeguridadSwingModule;
