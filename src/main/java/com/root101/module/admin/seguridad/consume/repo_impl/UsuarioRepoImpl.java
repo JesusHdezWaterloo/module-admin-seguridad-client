@@ -17,7 +17,7 @@
 package com.root101.module.admin.seguridad.consume.repo_impl;
 
 import com.root101.module.admin.seguridad.consume.usecase_def.UsuarioUseCaseConsume;
-import static com.root101.module.admin.seguridad.core.ModuleAdminSeguridadConstants.*;
+import static com.root101.module.admin.seguridad.rest.ModuleAdminSeguridadRESTConstants.*;
 import com.root101.module.admin.seguridad.core.domain.*;
 import com.jhw.module.util.rest_config.services.RESTHandler;
 import com.jhw.utils.spring.client.ConsumerRepoTemplate;
