@@ -20,9 +20,9 @@ import com.root101.clean.core.app.services.ExceptionHandler;
 import com.root101.module.admin.seguridad.core.domain.*;
 import com.root101.module.admin.seguridad.ui.module.SeguridadModuleNavigator;
 import com.root101.module.admin.seguridad.ui.module.SeguridadSwingModule;
-import com.jhw.swing.models.detail._MaterialPanelDetail;
-import com.jhw.swing.material.components.table.Column;
-import com.jhw.swing.models.input.dialogs.DialogModelInput;
+import com.root101.swing.models.detail._MaterialPanelDetail;
+import com.root101.swing.material.components.table.Column;
+import com.root101.swing.models.input.dialogs.DialogModelInput;
 
 /**
  *
