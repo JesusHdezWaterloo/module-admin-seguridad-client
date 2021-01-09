@@ -19,7 +19,7 @@ package com.root101.module.admin.seguridad.ui;
 import com.root101.module.admin.seguridad.ui.rol.RolDetailView;
 import com.root101.module.admin.seguridad.ui.usuario.UsuarioDetailView;
 import com.root101.utils.interfaces.Update;
-import com.jhw.swing.material.components.container.panel._PanelTransparent;
+import com.root101.swing.material.components.container.panel._PanelTransparent;
 import java.awt.BorderLayout;
 
 /**

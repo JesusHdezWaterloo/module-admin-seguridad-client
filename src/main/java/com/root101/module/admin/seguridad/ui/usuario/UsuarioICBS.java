@@ -19,8 +19,8 @@ package com.root101.module.admin.seguridad.ui.usuario;
 import com.root101.module.admin.seguridad.core.domain.*;
 import com.root101.module.admin.seguridad.ui.module.SeguridadModuleNavigator;
 import com.root101.module.admin.seguridad.ui.module.SeguridadSwingModule;
-import com.jhw.swing.models.input.icbs.InputComboBoxSelection;
-import com.jhw.swing.models.input.panels.ModelPanel;
+import com.root101.swing.models.input.icbs.InputComboBoxSelection;
+import com.root101.swing.models.input.panels.ModelPanel;
 import java.util.List;
 
 /**
