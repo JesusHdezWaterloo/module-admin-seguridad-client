@@ -24,7 +24,7 @@ import com.root101.module.admin.seguridad.consume.module.SeguridadConsumeCoreMod
 import com.root101.module.admin.seguridad.service.ResourceServiceClientImplementation;
 import com.root101.module.admin.seguridad.service.ResourceServiceImplementation;
 import com.root101.module.admin.seguridad.ui.UsuariosMainPanel;
-import com.jhw.swing.material.components.taskpane.CollapseMenu;
+import com.root101.swing.material.components.taskpane.CollapseMenu;
 import com.root101.module.admin.seguridad.consume.usecase_def.RolUseCaseConsume;
 import com.root101.module.admin.seguridad.consume.usecase_def.UsuarioUseCaseConsume;
 import java.awt.event.ActionEvent;
